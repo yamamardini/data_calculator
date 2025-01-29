@@ -1,0 +1,14 @@
+[
+    {
+        "qrCode": "12345",
+        "name": "Product 1",
+        "quantity": 10,
+        "price": 50.75
+    },
+    {
+        "qrCode": "67890",
+        "name": "Product 2",
+        "quantity": 5,
+        "price": 25.00
+    }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--  Headlines-->
+    <hr class="hr">
+    <h1 class="The_data_entry">The data entry</h1>
+    <h1 class="Data_extraction">Data extraction</h1>
+    <hr class="hr2">
+    <hr class="hr3">
+    <h1 class="Delete_all_data">Delete all data</h1>
+    <h1 class="View_all_data">View all data </h1>
+    <!-- input and button => The data entry -->
+    <form id="productForm">
+        <input type="text" name="" id="my_input1" placeholder="QR cood">
+        <input type="text" name="" id="my_input2" placeholder="name">
+        <input type="text" name="" id="my_input3" placeholder="Quantity">
+        <input type="text" name="" id="my_input4" placeholder="price">
+        <button id="button1">save</button>
+    </form>
+
+    <!-- input and button=> Data extraction  -->
+    <div class="container">
+        <form id="retrieveForm">
+            <input type="text" name="" id="my_input5" placeholder="QR cood" required>
+            <input type="text" name="" id="my_input6" placeholder="Quantity" required>
+            <button type="submit" id="button2">save</button>
+        </form>
+        <div id="invoiceOutput"></div>
+    </div>
+
+    <!--  button=> Delete all data -->
+    <button id="button3" defer>Delete</button>
+
+    <!-- button=>  View all data-->
+   <!-- input and button => View all data -->
+<button id="searchButton">OK</button>
+<input type="text" id="my_input7" placeholder="QR cood">
+<div id="productDetails"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
